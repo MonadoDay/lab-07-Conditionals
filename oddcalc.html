@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Oddcalc</title>
+  </head>
+  <body>
+    <<script>
+      var firstnumber = prompt("Give me a number, any number");
+      var secondnumber = prompt("Wonderful, now give me another number");
+      var operation = prompt("What operation would you like? (mul, div, mod)");
+      if (operation === "mul") {
+        console.log(firstnumber * secondnumber);
+      } else if (operation === "div") {
+        console.log(firstnumber / secondnumber);
+      } else if (operation === "mod") {
+        console.log(firstnumber % secondnumber);
+      } else {
+        console.log("**** INVALID OPERATION ****")
+      }
+    </script>
+  </body>
+</html>
