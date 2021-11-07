@@ -1,9 +1,9 @@
 english = print("Give me a word in English")
 if english == "cat" || english == "Cat":
     print("Gato")
-else if english == "dog" || english == "Dog":
+elif english == "dog" || english == "Dog":
     print("perro")
-else if english == "horse" || english == "Horse":
+elif english == "horse" || english == "Horse":
     print("caballo")
-else:
+elif:
     print("no entiendo")
